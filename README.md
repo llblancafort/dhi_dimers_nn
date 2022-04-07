@@ -1,2 +1,2 @@
 # dimers_nn
-scripts for DHI dimers Neural Networks
+Scripts for DHI dimers Neural Networks paper
