@@ -138,7 +138,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str('G_rel'))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str('E_exc'))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
     else:
         hola = k-1
         outfile.write('%s' % (''.join(str(nom[hola]))))
@@ -152,7 +152,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str(energia[hola]))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str(excitat[hola]))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
 outfile.close()
 
 # generate input layer for QBF model
@@ -265,7 +265,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str('G_rel'))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str('E_exc'))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
     else:
         hola = k-1
         outfile.write('%s' % (''.join(str(nom[hola]))))
@@ -279,7 +279,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str(energia[hola]))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str(excitat[hola]))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
 outfile.close()
 
 # generate input layer for QBS model
@@ -422,7 +422,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str('G_rel'))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str('E_exc'))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
     else:
         hola = k-1
         outfile.write('%s' % (''.join(str(nom[hola]))))
@@ -438,7 +438,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str(energia[hola]))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str(excitat[hola]))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
 outfile.close()
 
 # generate input layer for MVR model
@@ -563,7 +563,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str('G_rel'))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str('E_exc'))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
     else:
         hola = k-1
         outfile.write('%s' % (''.join(str(nom[hola]))))
@@ -577,7 +577,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str(energia[hola]))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str(excitat[hola]))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
 outfile.close()
 
 # generate input layer for MVS model
@@ -741,7 +741,7 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str('G_rel'))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str('E_exc'))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
     else:
         hola = k-1
         outfile.write('%s' % (''.join(str(nom[hola]))))
@@ -755,6 +755,6 @@ for k in range(nl+1):
         outfile.write('%s' % (''.join(str(energia[hola]))))
         outfile.write('%s' % (' '))
         outfile.write('%s' % (''.join(str(excitat[hola]))))
-        outfile.write('%s\n' % (' '))
+        outfile.write('%s\n' % (''))
 outfile.close()
 
