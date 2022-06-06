@@ -9,4 +9,5 @@ Training and prediction. Run the NN_G_rel.py or NN_E_exc.py script passing the n
 - NN_G_rel_predict.txt: Predicted dimer energies for the validation and test sets, following the order of NN_G_rel_names.txt.
 - NN_G_rel.csv: History of training and validation losses for each epoch.
 - NN_G_rel.png: Plot of NN_G_rel.csv contained in the `images/NN_G_rel` directory.
+
 The NN_E_exc.py script generates analogous files with `G_rel` replaced by `E_exc`.
