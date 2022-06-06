@@ -1,7 +1,7 @@
-# input: dimer_summary.dat (file with the dimer names, G_rel, E_exc)
+# input: dhi_dimer_summary.dat (file with the DHI dimer names, G_rel, E_exc)
 # output: files MVR.out	MVS.out	QBB.out	QBF.out	QBS.out
 # generate input layer for QBB model
-infile = open('dimer_summary.dat','r')
+infile = open('dhi_dimer_summary.dat','r')
 conn = []
 rox = [[0 for a in range(6)] for b in range(830)]
 rbond = []
@@ -157,7 +157,7 @@ outfile.close()
 
 # generate input layer for QBF model
 
-infile = open('dimer_summary.dat','r')
+infile = open('dhi_dimer_summary.dat','r')
 conn = []
 rox = [[0 for a in range(6)] for b in range(830)]
 rbond = []
@@ -284,7 +284,7 @@ outfile.close()
 
 # generate input layer for QBS model
 
-infile = open('dimer_summary.dat','r')
+infile = open('dhi_dimer_summary.dat','r')
 conn = []
 conn2 = []
 rox = [[0 for a in range(6)] for b in range(830)]
@@ -443,7 +443,7 @@ outfile.close()
 
 # generate input layer for MVR model
 
-infile = open('dimer_summary.dat','r')
+infile = open('dhi_dimer_summary.dat','r')
 conn = []
 rox = [[0 for a in range(6)] for b in range(830)]
 rbond = []
@@ -582,7 +582,7 @@ outfile.close()
 
 # generate input layer for MVS model
 
-infile = open('dimer_summary.dat','r')
+infile = open('dhi_dimer_summary.dat','r')
 conn = []
 rox = [[0 for a in range(6)] for b in range(830)]
 rbond = []
